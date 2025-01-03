@@ -1,0 +1,150 @@
+body{
+    background-image: url("Logo4.webp");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.extensao{
+    width: 100%;
+}
+
+.CarrMode img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    padding: 50px;
+}
+.CarrText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 10; 
+    font-size: 17px;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border: none;
+}
+
+.text-center{
+    color: #b58f4c;
+}
+
+.cardcar {
+    color: #b58f4c;
+}
+
+.cardbody{
+    background-color: #b58f4c;
+}
+
+
+.beneficios-titulo {
+
+    font-weight: bold;
+    background-color: #000; 
+    
+    border-radius: 5px;
+}
+
+.beneficio-card {
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.beneficio-card:hover {
+    transform: scale(1.05);
+    border-color: gold;
+}
+
+.beneficio-card .card-text {
+    color: white;
+}
+
+.beneficio-card .card-title {
+    color: white;
+}
+
+/* Título da seção "Sobre Nós" */
+.sobre-nos-titulo {
+    
+    font-weight: bold;
+    background-color: #222;
+    
+    border-radius: 5px;
+}
+
+/* Texto da história */
+.sobre-nos-texto {
+    color: white;
+    background-color: #222;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Imagem */
+.imgsobre {
+    border: 2px solid rgb(167, 147, 34);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.imgsobre:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5);
+}
+
+/* Título da seção "Contato" */
+.contato-titulo {
+    
+    font-weight: bold;
+    background-color: #222;
+    border-bottom: 2px solid silver;
+    border-radius: 5px;
+}
+
+/* Fundo da área de contato */
+.contato-bg {
+    background-color: #111;
+    border: 2px solid silver;
+}
+
+/* Cores do texto */
+.text-gold {
+    color: gold;
+}
+
+.text-white {
+    color: white;
+}
+
+
+.form-control {
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: gold;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.8);
+}
+
+.btn-outline-warning {
+    border: 1px solid gold;
+    color: gold;
+}
+
+.btn-outline-warning:hover {
+    background-color: gold;
+    color: black;
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IronFuel</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+            <img class="mx-auto d-block extensao" src="Logo3.png">   &nbsp &nbsp 
+    </header>
+    <div class="container">
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body rounded-5" data-bs-theme="dark">
+
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-warning  fs-3" aria-current="page" href="#">Início</a>
+                </li>
+                    &nbsp &nbsp
+                <li class="nav-item">
+                    <a class="nav-link fs-3" href="#Produtos" >Sobre nós</a>
+                </li>
+                    &nbsp &nbsp
+                <li class="nav-item">
+                    <a class="nav-link fs-3" href="#Beneficios">Produtos</a>
+                </li>
+                    &nbsp &nbsp
+                <li class="nav-item">
+                    <a class="nav-link fs-3" href="#">Benefícios</a>
+                </li>
+                    &nbsp &nbsp    
+                <li class="nav-item">
+                    <a class="nav-link fs-3" href="#">Contato</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    </div>
+
+    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+
+    <div class="CarrText">
+        <h2>Bem Vindo!</h2>
+        <p>IronFuel é uma marca de suplementos e produtos de academia, oferecendo proteínas, creatina e acessórios para ajudar atletas e entusiastas a alcançar seus objetivos de performance e saúde com qualidade e segurança.</p>
+    </div>
+    <div id="carouselExample" class="carousel slide CarrMode" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Car1.jpg" class="d-block w-100" alt="Imagem 1">
+            </div>
+            <div class="carousel-item">
+                <img src="Car2.jpg" class="d-block w-100" alt="Imagem 2">
+            </div>
+            <div class="carousel-item">
+                <img src="Car3.jpg" class="d-block w-100" alt="Imagem 3">
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Próximo</span>
+        </button>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+
+
+    <div class="container mt-5" id="sobre-nos">
+        <h1 class="text-center sobre-nos-titulo py-3">
+      </h1>
+        <div class="row align-items-center mt-4">
+            <div class="col-md-6">
+                <img src="SobreImg.jpg" alt="Sobre Nós" class="img-fluid rounded shadow imgsobre">
+            </div>
+            <div class="col-md-6">
+                <p class="sobre-nos-texto">
+                    Fundada em 2020, a <strong>IronFuel</strong> nasceu da paixão por performance e bem-estar. Nossa missão é empoderar atletas e entusiastas do fitness a atingirem seus objetivos com produtos de alta qualidade, desenvolvidos com rigor científico e ingredientes selecionados. 
+                </p>
+                <p class="sobre-nos-texto">
+                    O compromisso da IronFuel vai além de suplementos: buscamos inspirar uma comunidade de pessoas dedicadas à superação, força e saúde. Seja para alcançar a melhor versão de si mesmo ou quebrar barreiras nos treinos, estamos aqui para apoiar sua jornada.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-5">
+        <h1 class="text-center bg-dark border-bottom border-body rounded-2" id="Produtos">Produtos</h1>&nbsp &nbsp 
+        <div class="row">
+            
+            <div class="col-md-4 Prod">
+                <div class="card mb-4">
+                    <img src="Prod1.jpg" class="card-img-top" alt="Produto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Whey Protein</h5>
+                        <p class="card-text">Whey protein IronFuel fornece proteínas para quem deseja hipertrofia e definição muscular.
+                        </p>
+                        <p class="card-text"><strong>R$ 109,90</strong></p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Whey Protein', 109.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 Prod">
+                <div class="card mb-4">
+                    <img src="Prod2.jpg" class="card-img-top" alt="Produto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Creatina</h5>
+                        <p class="card-text">Potencialize seus treinos, aumente sua força e melhore sua recuperação com a pureza e eficácia que seu corpo merece.</p>
+                        <p class="card-text"><strong>R$ 79,90</strong></p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Creatina', 79.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 Prod">
+                <div class="card mb-4">
+                    <img src="Prod3.png" class="card-img-top" alt="Produto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Barra de proteína</h5>
+                        <p class="card-text">Barrinha de Proteína para força e energia a qualquer hora. Nutrição prática para sua rotina!</p>
+                        <p class="card-text"><strong>R$ 5,49</strong></p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Barra de proteína', 5.49)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            
+            <div class="col-md-4 Prod">
+                <div class="card mb-4">
+                    <img src="ProdR1.jpg" class="card-img-top" alt="Produto 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Blusa Termica</h5>
+                        <p class="card-text">Mantenha-se aquecido e confortável durante seus treinos com tecnologia de isolamento que regula a temperatura e maximiza seu desempenho.</p>
+                        <p class="card-text"><strong>R$ 79,90</strong></p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Blusa Termica', 79.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 Prod">
+                <div class="card mb-4">
+                    <img src="ProdR2.png" class="card-img-top" alt="Produto 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisa</h5>
+                        <p class="card-text">Conforto e estilo para acompanhar cada treino. Feita para os fortes!</p>
+                        <p class="card-text"><strong>R$ 59,90</strong></p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Camisa', 59.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 Prod">
+                <div class="card mb-4">
+                    <img src="ProdR3.png" class="card-img-top" alt="Produto 6">
+                    <div class="card-body">
+                        <h5 class="card-title">Regata</h5>
+                        <p class="card-text">Liberdade de movimento e frescor para o seu treino render mais. Vista sua força</p>
+                        <p class="card-text"><strong>R$ 59,90</strong></p>
+                        <button class="btn btn-primary" onclick="adicionarAoCarrinho('Regata', 59.90)">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="carrinho" class="mt-5 Prod cardcar bg-dark border-bottom border-body rounded-3">
+            <h2>Carrinho</h2>
+            <ul id="lista-carrinho" class="list-group"></ul>
+            <p id="total" class="mt-3"><strong>Total: R$ 0,00</strong></p>
+        </div>
+    </div>
+
+    <br><br>
+
+        <div class="container mt-5">
+            <h1 class="text-center beneficios-titulo py-3 bg-dark border-bottom border-body rounded-2" id="Beneficios">Benefícios</h1>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="card beneficio-card bg-dark text-white border-secondary h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-lightning-fill text-warning fs-1"></i>
+                            <h5 class="card-title mt-3">Energia e Desempenho</h5>
+                            <p class="card-text">
+                                Para alcançar seu melhor desempenho, é essencial ter energia constante e força explosiva durante os treinos. Nossos suplementos são cuidadosamente formulados para proporcionar o combustível necessário para que você dê o máximo em cada repetição. Com a IronFuel, você terá energia duradoura e a capacidade de manter o foco, mesmo nos treinos mais exigentes. Nossos produtos ajudam a reduzir a fadiga muscular, permitindo que você treine com intensidade e recupere-se mais rápido, otimizando cada sessão de treino. É a combinação perfeita para superar limites e alcançar novos patamares de performance.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card beneficio-card bg-dark text-white border-secondary h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-shield-fill-check text-secondary fs-1"></i>
+                            <h5 class="card-title mt-3">Qualidade e Segurança</h5>
+                            <p class="card-text">
+                                A IronFuel nasceu com um compromisso inegociável com a qualidade e a segurança. Cada produto que desenvolvemos passa por rigorosos testes de laboratório e atende aos mais altos padrões de controle, garantindo que você receba apenas o melhor. Utilizamos ingredientes premium, selecionados de forma criteriosa para maximizar a eficiência e minimizar quaisquer riscos. Sabemos que sua saúde é sua prioridade, e por isso entregamos suplementos que respeitam seu corpo enquanto oferecem resultados reais. Com a IronFuel, você pode confiar plenamente no que está consumindo, sabendo que cada dose está alinhada com suas metas e valores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card beneficio-card bg-dark text-white border-secondary h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-graph-up-arrow text-light fs-1"></i>
+                            <h5 class="card-title mt-3">Resultados Garantidos</h5>
+                            <p class="card-text">
+                                Transformar o corpo e alcançar objetivos exige esforço, disciplina e as ferramentas certas. A IronFuel é a marca que coloca resultados ao seu alcance. Nossos produtos são projetados para ajudar você a construir massa muscular, queimar gordura e aumentar sua resistência de maneira eficiente. Com uma linha completa que inclui whey protein, creatina, barras de proteína e acessórios de treino, oferecemos soluções para todas as etapas da sua jornada fitness. Não importa se você está começando agora ou se já é um veterano na academia, com a IronFuel, cada treino será um passo mais próximo dos seus objetivos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container mt-5" id="contato">
+            <h1 class="text-center contato-titulo py-3">
+                Contato
+            </h1>
+            <div class="contato-bg p-4 rounded shadow">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3 class="text-gold">Entre em contato conosco</h3>
+                        <p class="text-white">
+                            Quer saber mais sobre nossos produtos ou tem alguma dúvida? Preencha o formulário abaixo ou entre em contato por nossas redes sociais. Estamos aqui para ajudar você a alcançar seus objetivos.
+                        </p>
+                        <p class="text-white">
+                            <strong>Email:</strong> contato@ironfuel.com.br<br>
+                            <strong>Telefone:</strong> (11) 98765-4321<br>
+                            <strong>Redes sociais:</strong> @IronFuelOfficial
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label text-white">Nome</label>
+                                <input type="text" class="form-control bg-dark text-white" id="nome" placeholder="Seu nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-white">Email</label>
+                                <input type="email" class="form-control bg-dark text-white" id="email" placeholder="Seu email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label text-white">Mensagem</label>
+                                <textarea class="form-control bg-dark text-white" id="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-outline-warning w-100">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+                
+          
+
+    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+</body>
+</html>
